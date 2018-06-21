@@ -19,7 +19,7 @@
     top: 36px;
     font-size: 18px; }
   #header {
-    padding-top: 33px; }
+    padding-top: 15px; }
   .header-top-line {
     position: relative; }
   .header-menu-wrapp {
@@ -133,7 +133,7 @@
 
 @media (max-width: 767px) {
   .header-logo a img {
-    width: 128px; }
+    width: 95x; }
   .section-title {
     width: auto; }
     .section-title h3 {
@@ -147,13 +147,12 @@
   .about-item-img {
     margin: 0 auto 29px; }
   .about-item {
-    width: auto; }
+    width: auto;
+    margin-bottom: 0; }
   .about-item.about-item-active {
     border: none; }
   .about-item-active.about-item-two .about-item-img {
     background-image: url(../img/about-items/2.svg); }
-  .about-descr-hov {
-    display: none; }
   .services-item-img {
     display: none; }
   .about-item-descr-mob {
@@ -173,7 +172,11 @@
   .about-item-three:before {
     left: 230px; }
   .about-item-descr p {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
+  .about-descr-hov {
+    opacity: 1; }
+  .about-item-wrapp-active .about-item {
+    border: none; }
   .partners-imgs {
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
@@ -234,14 +237,10 @@
   .contacts-form-inputs {
     width: 100%; }
   .services-item-number {
-    margin-bottom: 18px; } }
-
-@media (max-width: 630px) {
-  .hamburger-wrapp {
-    position: static; }
-  .hamburger {
-    top: 39px;
-    right: 24px; } }
+    margin-bottom: 18px; }
+  #header.header-fix {
+    padding-top: 5px;
+    padding-bottom: 5px; } }
 
 @media (max-width: 600px) {
   .home-title h1 {
@@ -250,9 +249,6 @@
     text-align: center;
     padding-left: 15px;
     padding-right: 15px; }
-  .header-logo a img {
-    position: absolute;
-    left: 15px; }
   .home-descr p {
     font-size: 14px; }
   .home-yelp-descr {
